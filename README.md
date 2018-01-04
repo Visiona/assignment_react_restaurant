@@ -1,7 +1,6 @@
 # Restaurant Website in React & Foundation
-Making a tasty restaurant website with React
 
-Just a static restaurant website using React and Foundation framework.
+This is a static website of a restaurant using React and Bootstrap framework.
 
 <p align="center">
   <img src="" width="650"/>
