@@ -2,4 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  font-colour: #444;
+}
+
+.blueish {
+  background-color: #87b1bc;
+  background: linear-gradient(#914E3A, #fce7db);
+}
+
+.size-main-img {
+  max-width: 800px;
+}
+
+nav.navbar {
+  margin-bottom: 0;
 }

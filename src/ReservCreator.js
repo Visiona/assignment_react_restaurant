@@ -4,33 +4,31 @@ const ReservCreator = () => {
 
 
   return (
-    <div className="row">
-      <div className="small-3 medium-3 columns">HEHEHEHHE</div>
-      <div className="small-6 medium-6 columns">
+    <div className="reservation-caontainer" id='3'>
+    <h3>Booking Form</h3>
+      <form>
+        <div className="form-group">
+          <input type="date" className="form-control" id="date1" />
+        </div>
+        <div className="form-group">
+          <input type="time" className="form-control" id="time1" />
+        </div>
+        <div className="dropdown">
+          <button className="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            How many people?
+            <span className="caret"></span>
+          </button>
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">0-2</a></li>
+            <li><a href="#">2-4</a></li>
+            <li><a href="#">4-6</a></li>
+            <li><a href="#">6-8</a></li>
+          </ul>
+        </div>
+        <button type="submit" className="btn btn-default">Make a Reservation</button>
+      </form>
+    </div>
 
-
-        <form>
-          <label>
-            Date:
-            <input type="date" placeholder=".small-12.columns" aria-describedby="exampleHelpText" />
-          </label>
-          <p className="help-text" id="exampleHelpText">Heres how you use this input field!</p>
-          <label>
-            Time
-            <input type="time" />
-          </label>
-          <label>How many People?
-            <select>
-              <option value="husker">2 People</option>
-              <option value="starbuck">2-4 People</option>
-              <option value="hotdog">4-6 People</option>
-              <option value="apollo">6-10 People</option>
-            </select>
-          </label>
-        </form>
-      </div>
-      <div className="small-3 medium-3 columns"></div>
-  </div>
   )
 }
 

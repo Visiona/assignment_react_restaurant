@@ -7,18 +7,20 @@ const DishTablerizer = ({menu}) => {
   ))
 
   return (
-    <table className='Dishes Container' id='#2'>
-      <thead>
-        <tr>
-          <th width="100">Dish Name</th>
-          <th width="250">Description</th>
-          <th width="50">Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        {dishIterate}
-      </tbody>
-    </table>
+    <div className='row' id='2'>
+        <table className='table'>
+          <thead>
+            <tr>
+              <th className="text-center" width="150">Dish Name</th>
+              <th className="text-center" width="250">Description</th>
+              <th className="text-center" width="100">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            {dishIterate}
+          </tbody>
+        </table>
+    </div>
   )
 }
 
