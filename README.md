@@ -1,4 +1,4 @@
-# Restaurant Website in React & Foundation
+# Restaurant Website in React & Bootstrap
 
 This is a static website of a restaurant using React and Bootstrap framework.
 
